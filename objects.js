@@ -7,7 +7,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  Object.assign(playlist, {artistiname})
+  Object.assign(playlist, {artistName})
 
   delete playlist.artistName
 
